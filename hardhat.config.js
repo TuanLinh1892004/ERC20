@@ -17,6 +17,10 @@ module.exports = {
       url: `https://bsc-testnet.infura.io/v3/${INFURA_API_KEY}`,
       accounts: [BSC_PRIVATE_KEY],
     },
+    sepolia: {
+      url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
+      accounts: [PRIVATE_KEY],
+    },
   },
   etherscan: {
     apiKey: {
