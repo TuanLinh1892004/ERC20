@@ -25,6 +25,7 @@ module.exports = {
   etherscan: {
     apiKey: {
       bsc: ETHERSCAN_API_KEY,
+      sepolia: ETHERSCAN_API_KEY,
     },
   },
 };
